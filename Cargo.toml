@@ -1,0 +1,6 @@
+[package]
+name = "sieve-of-eratosthenes"
+version = "0.1.0"
+authors = ["Daniel Lockyer <thisisdaniellockyer@gmail.com>"]
+
+[dependencies]
