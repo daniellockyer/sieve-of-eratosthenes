@@ -1,7 +1,7 @@
 use std::{env, io, process};
 use std::io::Write;
 
-fn primes_lt(bound: usize) -> Vec<usize> {
+fn primes_soe(bound: usize) -> Vec<usize> {
     let mut primes: Vec<bool> = (0..bound + 1).map(|num| num == 2 || num & 1 != 0).collect();
     let mut num = 3usize;
 
@@ -28,5 +28,5 @@ fn main() {
         process::exit(1);
     }).parse().unwrap();
 
-    println!("{:?}", primes_lt(bound));
+    println!("{:?}", primes_soe(bound));
 }
